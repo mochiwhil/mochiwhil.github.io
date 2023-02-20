@@ -1,31 +1,14 @@
-.tag-title {
-  max-width: content-max-width;
-  margin: 0.5em auto 0.5em auto;
+/* 标签 */
+.tags a {
+  color: #333;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 20040725px;
+  transition: 0.25s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
 }
-.tags-wrap {
-  max-width: content-max-width;
-  margin: 0 auto;
+.tags a:hover {
+  background: #eee;
+  text-decoration: none;
 }
-.tags-wrap .tags {
-  padding-bottom: 0.5em;
-}
-.tags-wrap .tags a {
-  padding-right: 10px;
-  line-height: 25px;
-  display: inline-block;
-}
-.tags-wrap .one-tag-list .tag-text {
-  margin: 1em 0 0.5em 0;
-  font-size: title-font-size;
-}
-.tags-wrap .one-tag-list .post-preview {
-  margin-bottom: 0.5em;
-}
-.tags-wrap .one-tag-list .post-preview .tag-item-date {
-  display: block;
-  float: left;
-}
-.tags-wrap .one-tag-list .post-preview .post-title {
-  display: block;
-  text-indent: 2em;
-}
+/* 标签 */
